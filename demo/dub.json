@@ -1,0 +1,13 @@
+{
+	"authors": [
+		"Cyrodwd"
+	],
+	"copyright": "Copyright © 2024, Cyrodwd",
+	"description": "ray-d test",
+	"license": "MIT",
+	"name": "demo",
+	"libs": ["raylib"],
+	"dependencies": {
+		"ray-d": {"path": "../"}
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"authors": [
+		"Cyrodwd"
+	],
+	"copyright": "Copyright (c) 2013-2024 Ramon Santamaria (@raysan5), Copyright © 2024, Cyrodwd",
+	"description": "Raylib 5.0.1 bindings for D",
+	"license": "MIT",
+	"name": "ray-d",
+	"targetType": "library",
+	"libs": ["raylib"]
+}
