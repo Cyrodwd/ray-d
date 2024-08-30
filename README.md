@@ -23,5 +23,3 @@ dub build
 ## Example
 You can see the [demo](demo/) directory which demonstrates a basic application made
 with ray-d.
-
-Translated with DeepL.com (free version)
