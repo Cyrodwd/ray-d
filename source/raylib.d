@@ -145,33 +145,34 @@ extern (D) auto CLITERAL(T)(auto ref T type)
 enum Colors
 {
     LIGHTGRAY = CLITERAL(Color(200, 200, 200, 255)), // LightGray
-    GRAY = CLITERAL(Color(130, 130, 130, 255)),
-    DARKGRAY = CLITERAL(Color(80, 80, 80, 255)),
-    YELLOW = CLITERAL(Color(253, 249, 0, 255)),
-    GOLD = CLITERAL(Color(255, 203, 0, 255)),
-    ORANGE = CLITERAL(Color(255, 161, 0, 255)),
-    PINK = CLITERAL(Color(230, 41, 55, 255)),
-    RED = CLITERAL(Color(230, 41, 55, 255)),
-    MAROON = CLITERAL(Color(190, 33, 55, 255)),
-    GREEN = CLITERAL(Color(0, 228, 48, 255)),
-    LIME = CLITERAL(Color(0, 158, 47, 255)),
-    DARKGREEN = CLITERAL(Color(0, 117, 44, 255)),
-    SKYBLUE = CLITERAL(Color(102, 191, 255, 255)),
-    BLUE = CLITERAL(Color(0, 121, 241, 255)),
-    DARKBLUE = CLITERAL(Color(0, 82, 172, 255)),
-    PURPLE = CLITERAL(Color(200, 122, 255, 255)),
-    VIOLET = CLITERAL(Color(135, 60, 190, 255)),
-    DARKPURPLE = CLITERAL(Color(112, 31, 126, 255)),
-    BEIGE = CLITERAL(Color(211, 176, 131, 255)),
-    BROWN = CLITERAL(Color(127, 106, 79, 255)),
-    DARKBROWN = CLITERAL(Color(76, 63, 47, 255)),
+    GRAY = CLITERAL(Color(130, 130, 130, 255)),         // Gray
+    DARKGRAY = CLITERAL(Color(80, 80, 80, 255)),        // Darkgray
+    YELLOW = CLITERAL(Color(253, 249, 0, 255)),         // Yellow
+    GOLD = CLITERAL(Color(255, 203, 0, 255)),           // Gold
+    ORANGE = CLITERAL(Color(255, 161, 0, 255)),         // Orange
+    PINK = CLITERAL(Color(230, 109, 194, 255)),         // Pink
+    RED = CLITERAL(Color(230, 41, 55, 255)),            // Red
+    MAROON = CLITERAL(Color(190, 33, 55, 255)),         // Maroon
+    GREEN = CLITERAL(Color(0, 228, 48, 255)),           // Green
+    LIME = CLITERAL(Color(0, 158, 47, 255)),            // Lime
+    DARKGREEN = CLITERAL(Color(0, 117, 44, 255)),       // Dark Green
+    SKYBLUE = CLITERAL(Color(102, 191, 255, 255)),      // Sky Blue
+    BLUE = CLITERAL(Color(0, 121, 241, 255)),           // Blue
+    DARKBLUE = CLITERAL(Color(0, 82, 172, 255)),        // Dark Blue
+    PURPLE = CLITERAL(Color(200, 122, 255, 255)),       // Purple
+    VIOLET = CLITERAL(Color(135, 60, 190, 255)),        // Violet
+    DARKPURPLE = CLITERAL(Color(112, 31, 126, 255)),    // Dark Purple
+    BEIGE = CLITERAL(Color(211, 176, 131, 255)),        // Beige
+    BROWN = CLITERAL(Color(127, 106, 79, 255)),         // Brown
+    DARKBROWN = CLITERAL(Color(76, 63, 47, 255)),       // Dark Brown
 
-    WHITE = CLITERAL(Color(255, 255, 255, 255)), // White
-    BLACK = CLITERAL(Color(0, 0, 0, 255)), // Black
-    BLANK = CLITERAL(Color(0, 0, 0, 0)), // Blank (Transparent)
-    MAGENTA = CLITERAL(Color(255, 0, 255, 255)), // Magenta
-    RAYWHITE = CLITERAL(Color(245, 245, 245, 255)) // Raysan5's white (raylib logo)
+    WHITE = CLITERAL(Color(255, 255, 255, 255)),        // White
+    BLACK = CLITERAL(Color(0, 0, 0, 255)),              // Black
+    BLANK = CLITERAL(Color(0, 0, 0, 0)),                // Blank (Transparent)
+    MAGENTA = CLITERAL(Color(255, 0, 255, 255)),        // Magenta
+    RAYWHITE = CLITERAL(Color(245, 245, 245, 255))      // Raysan5's white (raylib logo)
 }
+
 //----------------------------------------------------------------------------------
 // Structures Definition
 //----------------------------------------------------------------------------------
