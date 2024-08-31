@@ -1,6 +1,5 @@
 import raylib;
 import raymath;
-import std.stdio;
 
 void main()
 {
@@ -34,6 +33,7 @@ void main()
 		BeginDrawing();
 		ClearBackground(Colors.BEIGE);
 		DrawCircleV(circlePosition, circleRadius, Colors.WHITE);
+		DrawText(TextFormat("Position X: %.2f\nPosition Y: %.2f", circlePosition.x, circlePosition.y), 0, 0, 20, Colors.WHITE);
 		EndDrawing();
 	}
 }
