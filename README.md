@@ -1,6 +1,6 @@
 # ray-d
 ------
-[`Raylib`](https://www.raylib.com/index.html) dynamic bindings for Dlang!
+[`Raylib`](https://www.raylib.com/index.html) v5.5-dev dynamic bindings for Dlang!
 New Dlang binding for the latest new version of Raylib. This
 binding also includes [`raygui`](https://github.com/raysan5/raygui).
 ## Usage
