@@ -1522,7 +1522,7 @@ const(char)* CodepointToUTF8 (int codepoint, int* utf8Size); // Encode one codep
 int TextCopy (char* dst, const(char)* src); // Copy one string to another, returns bytes copied
 bool TextIsEqual (const(char)* text1, const(char)* text2); // Check if two text string are equal
 uint TextLength (const(char)* text); // Get text length, checks for '\0' ending
-const(char)* TextFormat (const(char)* text, ...); // Text formatting with variables (sprintf() style)
+pragma(printf) const(char)* TextFormat (const(char)* text, ...); // Text formatting with variables (sprintf() style)
 const(char)* TextSubtext (const(char)* text, int position, int length); // Get a piece of a text string
 char* TextReplace (const(char)* text, const(char)* replace, const(char)* by); // Replace text string (WARNING: memory must be freed!)
 char* TextInsert (const(char)* text, const(char)* insert, int position); // Insert text in a position (WARNING: memory must be freed!)
